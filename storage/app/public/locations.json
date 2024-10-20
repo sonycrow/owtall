@@ -1,0 +1,580 @@
+{
+    "location": [
+        {
+            "universe": "fantasy",
+            "code": "forest",
+            "terrain": "forest",
+            "name": {
+                "en": "Forest",
+                "es": "Bosque"
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "mountain",
+            "terrain": "mountain",
+            "name": {
+                "en": "Mountain",
+                "es": "Montaña"
+            },
+            "entrance": 2,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "water",
+            "terrain": "water",
+            "name": {
+                "en": "Water",
+                "es": "Agua"
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "plains",
+            "terrain": "plains",
+            "name": {
+                "en": "Plains",
+                "es": "Llanuras"
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "desert",
+            "terrain": "desert",
+            "name": {
+                "en": "Desert",
+                "es": "Desierto"
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "twistedforest",
+            "terrain": "forest",
+            "name": {
+                "en": "Twisted forest",
+                "es": "Bosque retorcido"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades [fly] no obtienen ninguna bonificación en esta localización."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un bosque antiguo y misterioso, donde los árboles tienen formas extrañas y retorcidas."
+            },
+            "entrance": 2,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "shadowjungle",
+            "terrain": "forest",
+            "name": {
+                "en": "Shadow jungle",
+                "es": "Selva de las sombras"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades [forest] ganan +1 de {atk} en esta localización. Las unidades con {range} fuera de esta localización no pueden atacar a unidades en ella."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una selva densa y oscura, hogar de criaturas nocturnas y peligrosas."
+            },
+            "entrance": 2,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "graveyardofthefallen",
+            "terrain": "forest",
+            "name": {
+                "en": "Graveyard of the fallen",
+                "es": "Cementerio de los caídos"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades {undead} de coste 2 o menos, tienen +1 de {atk} en esta localización."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un lugar solemne donde las tumbas de los héroes caídos se alinean bajo el cielo gris."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "elderwood",
+            "terrain": "forest",
+            "name": {
+                "en": "Elderwood",
+                "es": "Bosque de los ancianos"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades {elves} ganan +1 de {atk} en esta localización."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un lugar místico donde los árboles milenarios susurran historias de tiempos olvidados."
+            },
+            "entrance": 1,
+            "gold": 1,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "thundersummit",
+            "terrain": "mountain",
+            "name": {
+                "en": "Thunder summit",
+                "es": "Cumbre del trueno"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades [mountain] ganan +1 de {atk} en esta localización."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una montaña alta que siempre está envuelta en tormentas eléctricas."
+            },
+            "entrance": 2,
+            "gold": 0,
+            "mana": 1,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "frozenpeaks",
+            "terrain": "mountain",
+            "name": {
+                "en": "Frozen peaks",
+                "es": "Picos helados"
+            },
+            "text": {
+                "en": "",
+                "es": ""
+            },
+            "lore": {
+                "en": "",
+                "es": "Montañas cubiertas de nieve y hielo perpetuo con temperaturas extremadamente bajas."
+            },
+            "entrance": 2,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "valleyofgiants",
+            "terrain": "mountain",
+            "name": {
+                "en": "Valley of giants",
+                "es": "Valle de los gigantes"
+            },
+            "text": {
+                "en": "",
+                "es": ""
+            },
+            "lore": {
+                "en": "",
+                "es": "Un valle entre montañas donde se dice que viven gigantes."
+            },
+            "entrance": 2,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "moonmountain",
+            "terrain": "mountain",
+            "name": {
+                "en": "Moon mountain",
+                "es": "Montaña de la luna"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades con {range} ganan +1 de {atk} en esta localización."
+            },
+            "lore": {
+                "en": "",
+                "es": "La montaña se eleva majestuosamente, bañada por la luz plateada de la luna."
+            },
+            "entrance": 2,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "spectrallake",
+            "terrain": "water",
+            "name": {
+                "en": "Spectral lake",
+                "es": "Lago espectral"
+            },
+            "text": {
+                "en": "",
+                "es": "El jugador que controle esta localización, si tiene una unidad [magic] en ella genera (1m) adicional en la fase de recaudación."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un lago misterioso con aguas cristalinas que reflejan las estrellas incluso durante el día."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "serpentriver",
+            "terrain": "water",
+            "name": {
+                "en": "Serpent river",
+                "es": "Río de la serpiente"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades [water] ganan +1 de {move} cuando entran en esta localización."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un río serpenteante que atraviesa el bosque, conocido por sus corrientes rápidas y peligrosas."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "mermaidsbay",
+            "terrain": "water",
+            "name": {
+                "en": "Mermaid\u2019s bay",
+                "es": "Bahía de las sirenas"
+            },
+            "text": {
+                "en": "",
+                "es": "Todas las unidades que entren en esta localización deben detener su {move}."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un refugio encantado donde las aguas cristalinas resuenan con los cantos hipnóticos de las sirenas."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "goldenplains",
+            "terrain": "plains",
+            "name": {
+                "en": "Golden plains",
+                "es": "Llanuras doradas"
+            },
+            "text": {
+                "en": "",
+                "es": ""
+            },
+            "lore": {
+                "en": "",
+                "es": "Extensas llanuras cubiertas de hierba dorada, perfectas para grandes batallas."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "centaurprairie",
+            "terrain": "plains",
+            "name": {
+                "en": "Centaur prairie",
+                "es": "Pradera de los centauros"
+            },
+            "text": {
+                "en": "",
+                "es": ""
+            },
+            "lore": {
+                "en": "",
+                "es": "Una pradera vasta y abierta, hogar de tribus de centauros."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "magetower",
+            "terrain": "plains",
+            "name": {
+                "en": "Mage tower",
+                "es": "Torre de mago"
+            },
+            "text": {
+                "en": "",
+                "es": "El coste de los hechizos de las unidades [magic] en esta localización se reduce en 1."
+            },
+            "lore": {
+                "en": "",
+                "es": "La torre de mago con una fuente de poder."
+            },
+            "entrance": 2,
+            "gold": 1,
+            "mana": 2,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "wheatfield",
+            "terrain": "plains",
+            "name": {
+                "en": "Wheat field",
+                "es": "Campo de trigo"
+            },
+            "text": {
+                "en": "",
+                "es": ""
+            },
+            "lore": {
+                "en": "",
+                "es": "Un hermoso campo de trigo."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "desertoflostsouls",
+            "terrain": "desert",
+            "name": {
+                "en": "Desert of lost souls",
+                "es": "Desierto de las almas perdidas"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades que entren en esta localización no pueden {attack} ese mismo turno, pero si pueden recibir {impact}."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un desierto vasto y desolado, donde se dice que las almas de los perdidos vagan eternamente."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "skeletondesert",
+            "terrain": "desert",
+            "name": {
+                "en": "Skeleton desert",
+                "es": "Desierto de los esqueletos"
+            },
+            "text": {
+                "en": "",
+                "es": "La facción {undead} puede resucitar a una unidad {down} pagando su {cost} una vez por turno."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un desierto lleno de restos de antiguas batallas, con huesos y armas esparcidos por todas partes."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "oasisofserenity",
+            "terrain": "desert",
+            "name": {
+                "en": "Oasis of serenity",
+                "es": "Oasis de la serenidad"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades [fly] ganan +1 de {ini}."
+            },
+            "lore": {
+                "en": "",
+                "es": ""
+            },
+            "entrance": 2,
+            "gold": 1,
+            "mana": 1,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "miragedesert",
+            "terrain": "desert",
+            "name": {
+                "en": "Mirage desert",
+                "es": "Desierto de los espejismos"
+            },
+            "text": {
+                "en": "",
+                "es": "Cuando una unidad [magic] en esta localización reciba un {impact}, lanza [d6]. Con un 1-3 lo ignora, con un 4-6 recibe el {impact}."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un vasto y engañoso mar de arena, donde las ilusiones bailan bajo el sol abrasador."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "ironcitadel",
+            "terrain": "city",
+            "name": {
+                "en": "Iron citadel",
+                "es": "Ciudadela de hierro"
+            },
+            "text": {
+                "en": "",
+                "es": "Todas las unidades excepto [fly] deben detenerse al entrar en esta localización."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una ciudad fortificada con altas murallas y torres de vigilancia."
+            },
+            "entrance": 1,
+            "gold": 3,
+            "mana": 1,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "cityofmages",
+            "terrain": "city",
+            "name": {
+                "en": "City of mages",
+                "es": "Ciudad de los magos"
+            },
+            "text": {
+                "en": "",
+                "es": "El coste de los hechizos de las unidades [magic] en esta localización se reduce en 1."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una ciudad donde la magia es parte de la vida cotidiana, con torres de hechiceros y academias de magia."
+            },
+            "entrance": 1,
+            "gold": 2,
+            "mana": 2,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "bridgeofthebrave",
+            "terrain": "city",
+            "name": {
+                "en": "Bridge of the brave",
+                "es": "Puente de los valientes"
+            },
+            "text": {
+                "en": "",
+                "es": ""
+            },
+            "lore": {
+                "en": "",
+                "es": ""
+            },
+            "entrance": 1,
+            "gold": 1,
+            "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "ruinsofdesolation",
+            "terrain": "city",
+            "name": {
+                "en": "Ruins of desolation",
+                "es": "Ruinas de la desolación"
+            },
+            "text": {
+                "en": "",
+                "es": ""
+            },
+            "lore": {
+                "en": "",
+                "es": ""
+            },
+            "entrance": 1,
+            "gold": 1,
+            "mana": 1,
+            "expansion": "base",
+            "version": 1
+        }
+    ]
+}
