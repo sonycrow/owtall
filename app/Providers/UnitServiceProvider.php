@@ -89,7 +89,7 @@ class UnitServiceProvider extends ServiceProvider
     private static function unitCost(array $unit): ?int
     {
         $plus = $unit['faction'] == "mercenaries" ? 1 : 0;
-        return $unit['speed'] + $unit['atk'] + $unit['range'] + (ceil($unit['move'] / 2)) + $plus - 2;
+        return $unit['speed'] + $unit['atk'] + $unit['range'] + $unit['move'] + $plus - 3;
     }
 
 }

@@ -57,6 +57,11 @@
                 <h3 class="mb-2 text-xs font-medium uppercase text-gray-600">Game</h3>
                 <ul class="mb-8 text-sm font-medium">
                     <li>
+                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="{{ url('rules') }}">
+                            <span class="select-none">Rules</span>
+                        </a>
+                    </li>
+                    <li>
                         <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="{{ url('units') }}">
                             <span class="select-none">Units</span>
                         </a>

@@ -80,7 +80,7 @@
             },
             "text": {
                 "en": "",
-                "es": "Las unidades [fly] no obtienen ninguna bonificación en esta localización."
+                "es": "Las unidades [fly] pueden entrar, pero no pueden detenerse en esta localización debido a la densidad del bosque."
             },
             "lore": {
                 "en": "",
@@ -124,7 +124,7 @@
             },
             "text": {
                 "en": "",
-                "es": "Las unidades {undead} de coste 2 o menos, tienen +1 de {atk} en esta localización."
+                "es": "Las unidades {undead} de coste 2 o menos, tienen +1 de {atk} gracias a las almas de los caídos de esta localización."
             },
             "lore": {
                 "en": "",
@@ -190,7 +190,7 @@
             },
             "text": {
                 "en": "",
-                "es": ""
+                "es": "Cuando una unidad entre o salga de esta localización, lanza [d6] para evitar los efectos del clima extremo. Con un 1-2 pierde -1 de {move}. Las unidades [mountain] ignoran este efecto."
             },
             "lore": {
                 "en": "",
@@ -212,7 +212,7 @@
             },
             "text": {
                 "en": "",
-                "es": ""
+                "es": "Cuando una unidad entre en esta localización, lanza [d6]. Con un 1-2 pierde -1 {atk} durante ese turno. Las unidades [mountain] ignoran este efecto."
             },
             "lore": {
                 "en": "",
@@ -295,7 +295,7 @@
             "code": "mermaidsbay",
             "terrain": "water",
             "name": {
-                "en": "Mermaid\u2019s bay",
+                "en": "Mermaid's bay",
                 "es": "Bahía de las sirenas"
             },
             "text": {
@@ -322,7 +322,7 @@
             },
             "text": {
                 "en": "",
-                "es": ""
+                "es": "Las unidades [plains] que combaten en esta localización obtienen +1 {impact} cuando una pila ataque, debido a su dominio del terreno abierto."
             },
             "lore": {
                 "en": "",
@@ -344,7 +344,7 @@
             },
             "text": {
                 "en": "",
-                "es": ""
+                "es": "Las unidades [plains] que inicien su movimiento en esta localización, ganan +1 {move}."
             },
             "lore": {
                 "en": "",
@@ -388,7 +388,7 @@
             },
             "text": {
                 "en": "",
-                "es": ""
+                "es": "Cuando una unidad [plains] en esta localización reciba un {impact}, lanza [d6]. Con un 5-6, la unidad esquiva el {impact}."
             },
             "lore": {
                 "en": "",
@@ -458,7 +458,7 @@
             },
             "lore": {
                 "en": "",
-                "es": ""
+                "es": "Un rincón pacífico en el desierto, donde la vida florece rodeada de dunas."
             },
             "entrance": 2,
             "gold": 1,
@@ -542,11 +542,11 @@
             },
             "text": {
                 "en": "",
-                "es": ""
+                "es": "Por cada {impact} recibido en esta localización, lanza [d6]. Con un resultado de 6 puedes ignorar el {impact} y la unidad que lo fuera a recibir se mantiene con vida. "
             },
             "lore": {
                 "en": "",
-                "es": ""
+                "es": "El paso estrecho donde solo los guerreros más valientes se atreven a defender su honor."
             },
             "entrance": 1,
             "gold": 1,
@@ -564,15 +564,37 @@
             },
             "text": {
                 "en": "",
-                "es": ""
+                "es": "Las unidades {demons} ganan +1 de {ini} debido a la atmósfera opresiva y desoladora del lugar."
             },
             "lore": {
                 "en": "",
-                "es": ""
+                "es": "Vestigios de una ciudad antigua, ahora cubierta por una densa y sombría quietud."
             },
             "entrance": 1,
             "gold": 1,
             "mana": 1,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "sylvandorscity",
+            "terrain": "city",
+            "name": {
+                "en": "Sylvandor's city",
+                "es": "Ciudad de Sylvandor"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades {elves} ganan +1 de {ini}. Para las unidades {demons} y {undead} el coste de entrada se incrementa en +1."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una majestuosa ciudad enclavada en los altos árboles del bosque encantado."
+            },
+            "entrance": 1,
+            "gold": 2,
+            "mana": 2,
             "expansion": "base",
             "version": 1
         }

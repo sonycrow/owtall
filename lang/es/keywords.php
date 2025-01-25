@@ -4,7 +4,6 @@ return [
     'ini'    => 'iniciativa',
     'atk'    => 'ataque',
     'move'   => 'movimiento',
-    'speed'  => 'velocidad',
     'range'  => 'alcance',
     'cost'   => 'coste',
     'gold'   => 'oro',
@@ -13,6 +12,7 @@ return [
     'impact' => 'impacto',
     'attack' => 'atacar',
 
+    'demons' => 'demonios',
     'undead' => 'no muertos',
     'elves'  => 'elfos',
 ];

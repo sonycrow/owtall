@@ -12,6 +12,7 @@ return [
     'impact' => 'impact',
     'attack' => 'attack',
 
+    'demons' => 'demons',
     'undead' => 'undead',
     'elves'  => 'elves',
 ];
