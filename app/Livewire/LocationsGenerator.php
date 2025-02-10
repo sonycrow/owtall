@@ -7,7 +7,6 @@ use Livewire\Component;
 class LocationsGenerator extends Component
 {
     public string $terrain = "";
-    public bool $tts = false;
 
     /**
      * Vista del componente

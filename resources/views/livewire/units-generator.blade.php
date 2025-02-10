@@ -35,9 +35,7 @@
         <button x-on:click="generate" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 p-1">Generar</button>
     </div>
 
-{{--    {{ $expansion = 'mercenaries' }}--}}
-
-    <div class="grid grid-cols-3" style="width: {{ ($tts ? 288*4 : 512*3) }}px;">
+    <div class="grid grid-cols-3" style="width: {{ ($tts ? 544*3 : 512*3) }}px;">
         {{-- Livewire --}}
         @if(empty($expansion))
             @foreach (\App\Providers\UnitServiceProvider::getUnitsByFaction($faction) as $item)

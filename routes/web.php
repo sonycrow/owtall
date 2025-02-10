@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\LocaleController;
+
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
@@ -19,17 +21,7 @@ Route::get('/', function () {
 });
 
 // Idioma (locale)
-Route::get('/lang/{locale}', function ($locale)
-{
-    if (!in_array($locale, ['en', 'es'])) {
-        abort(400);
-    }
-
-    session()->put('locale', $locale);
-    App::setLocale($locale);
-
-    return redirect()->back();
-});
+Route::get('/lang/{locale}', [LocaleController::class, 'setLanguage'])->name('locale');
 
 /*
 |--------------------------------------------------------------------------

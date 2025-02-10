@@ -1,10 +1,3 @@
-<div>
-    <textarea id="rules-md" class="hidden">{{ $rules }}</textarea>
-    <div id="rules-html" class="markdown"></div>
+<div class="w-full h-screen">
+    <embed src="{{ Vite::asset($rules) }}" type="application/pdf" class="w-full" height="100%" />
 </div>
-
-@script
-<script>
-    document.getElementById('rules-html').innerHTML = markdownit.render(document.getElementById('rules-md').value);
-</script>
-@endscript

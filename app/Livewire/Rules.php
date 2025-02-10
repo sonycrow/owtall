@@ -15,7 +15,7 @@ class Rules extends Component
      */
     public function mount()
     {
-        $this->rules = html_entity_decode(Storage::disk('public')->get("rules/rules_" . App::currentLocale() . ".md"));
+        $this->rules = "resources/game/rules/rules_" . App::currentLocale() . ".pdf";
     }
 
     /**

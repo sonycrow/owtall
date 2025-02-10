@@ -32,9 +32,7 @@ class LocationServiceProvider extends ServiceProvider
             $item['type'] = 'location';
 
             $item['id']  = strtolower($item['expansion']) . "_";
-            $item['id'] .= str_replace(" ", "-", strtolower($item['code'])) . "_";
-
-            $item['id'] = substr($item['id'], 0, -1); // Eliminamos el _ final
+            $item['id'] .= str_replace(" ", "-", strtolower($item['code']));
 
             $item['art']   = "resources/art/{$item['universe']}/locations/{$item['expansion']}/{$item['id']}.jpg";
             $item['image'] = "resources/game/{$item['universe']}/locations/{$item['expansion']}/{$item['id']}.png";

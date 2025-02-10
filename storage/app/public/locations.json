@@ -322,7 +322,7 @@
             },
             "text": {
                 "en": "",
-                "es": "Las unidades [plains] que combaten en esta localización obtienen +1 {impact} cuando una pila ataque, debido a su dominio del terreno abierto."
+                "es": "Las unidades [plains] que combaten en esta localización obtienen +1 {impact} cuando atacan."
             },
             "lore": {
                 "en": "",
@@ -397,6 +397,28 @@
             "entrance": 1,
             "gold": 0,
             "mana": 0,
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "demonicportal",
+            "terrain": "plains",
+            "name": {
+                "en": "Demonic portal",
+                "es": "Portal demoníaco"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades [magic] en esta localización ganan +1 de {range}."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un portal ancestral que conecta el mundo mortal con las profundidades del infierno."
+            },
+            "entrance": 1,
+            "gold": 0,
+            "mana": 1,
             "expansion": "base",
             "version": 1
         },

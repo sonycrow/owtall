@@ -1,0 +1,544 @@
+{
+    "spell": [
+        {
+            "universe": "fantasy",
+            "code": "dispel",
+            "type": "active",
+            "mana": 2,
+            "name": {
+                "en": "Dispel",
+                "es": "Disipar"
+            },
+            "text": {
+                "en": "Cancels any spell cast by a player. If the dispelled spell had a permanent effect, it is immediately removed. It can only be cast by the same unit once per turn.",
+                "es": "Anula cualquier hechizo lanzado por un jugador. Si el hechizo disipado tenía un efecto permanente, se elimina de inmediato. Solo puede ser lanzado por la misma unidad una vez por turno."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "arcanewind",
+            "type": "active",
+            "mana": 3,
+            "name": {
+                "en": "Arcane Wind",
+                "es": "Viento Arcano"
+            },
+            "text": {
+                "en": "Grants +1 {mov} to a friendly unit until the end of the turn. Cannot be used on [magic] or [fly] units.",
+                "es": "Otorga +1 de {mov} a una unidad aliada hasta el final del turno. No puede usarse en unidades [magic] o [fly]."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "arcaneresonance",
+            "type": "passive",
+            "mana": 1,
+            "name": {
+                "en": "Arcane Resonance",
+                "es": "Resonancia Arcana"
+            },
+            "text": {
+                "en": "If the player casts a spell during their turn, they gain 2 {mana} at the beginning of their next collection phase.",
+                "es": "Si el jugador lanza un hechizo en su turno, obtiene 2 {mana} al comienzo de su siguiente fase de recaudación."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "mysticshield",
+            "type": "passive",
+            "mana": 3,
+            "name": {
+                "en": "Mystic Shield",
+                "es": "Escudo Místico"
+            },
+            "text": {
+                "en": "A friendly unit ignores the first hit it receives this turn. If the hit comes from an offensive spell, it is also nullified.",
+                "es": "Una unidad aliada ignora el primer impacto que reciba este turno. Si el impacto es de un hechizo ofensivo, también lo anula."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "jaguarscall",
+            "faction": "amazons",
+            "type": "active",
+            "mana": 3,
+            "name": {
+                "en": "Jaguar's Call",
+                "es": "Llamado del Jaguar"
+            },
+            "text": {
+                "en": "An amazon unit can move up to 2 locations regardless of terrain entry cost. It cannot move to locations occupied by enemies.",
+                "es": "Una unidad de amazonas puede moverse hasta 2 localizaciones sin importar el coste de entrada de los terrenos. No puede moverse a localizaciones ocupadas por enemigos."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "pumasleap",
+            "faction": "amazons",
+            "type": "active",
+            "mana": 4,
+            "name": {
+                "en": "Puma's Leap",
+                "es": "Salto del Puma"
+            },
+            "text": {
+                "en": "An amazon unit can move 1 location and attack immediately after moving, even if it has already moved this turn. Can only be used once per turn.",
+                "es": "Una unidad amazona puede moverse hasta 1 localización y atacar inmediatamente después de moverse, incluso si ya ha realizado su acción de movimiento este turno. Solo puede usarse una vez por turno."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "wildfury",
+            "faction": "amazons",
+            "type": "passive",
+            "mana": 2,
+            "name": {
+                "en": "Wild Fury",
+                "es": "Furia Salvaje"
+            },
+            "text": {
+                "en": "An amazon unit gains +1 Attack during this combat. If it lands at least one hit, it may move 1 location after attacking.",
+                "es": "Una unidad amazonas gana +1 Ataque durante este combate. Si obtiene al menos un impacto, puede mover 1 localización después de atacar."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "jungleroar",
+            "faction": "amazons",
+            "type": "passive",
+            "mana": 4,
+            "name": {
+                "en": "Jungle Roar",
+                "es": "Rugido de la Selva"
+            },
+            "text": {
+                "en": "During this combat, all allied amazon units in the location gain +1 Initiative.",
+                "es": "Durante este combate, todas las unidades amazonas aliadas en la localización ganan +1 Iniciativa."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "bloodthirst",
+            "faction": "barbarians",
+            "type": "active",
+            "mana": 3,
+            "name": {
+                "en": "Bloodthirst",
+                "es": "Sed de Sangre"
+            },
+            "text": {
+                "en": "An allied barbarian unit can attack twice in this combat if it lands at least one hit in its first attack.",
+                "es": "Una unidad bárbara aliada puede atacar dos veces en este combate si obtiene al menos un impacto en su primer ataque."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "warquake",
+            "faction": "barbarians",
+            "type": "active",
+            "mana": 4,
+            "name": {
+                "en": "Warquake",
+                "es": "Terremoto de Guerra"
+            },
+            "text": {
+                "en": "All units in a location lose -1 Initiative this turn. Flying units also lose -1 Movement.",
+                "es": "Todas las unidades en una localización pierden -1 de Iniciativa este turno. Las unidades voladoras también pierden -1 Movimiento."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "unrestrainedrage",
+            "faction": "barbarians",
+            "type": "passive",
+            "mana": 2,
+            "name": {
+                "en": "Unrestrained Rage",
+                "es": "Rabia Incontenible"
+            },
+            "text": {
+                "en": "An allied unit can attack immediately after suffering a casualty in combat.",
+                "es": "Una unidad aliada puede atacar inmediatamente después de sufrir una baja en combate."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "warcry",
+            "faction": "barbarians",
+            "type": "passive",
+            "mana": 3,
+            "name": {
+                "en": "War Cry",
+                "es": "Grito de Guerra"
+            },
+            "text": {
+                "en": "If at least one barbarian unit lands a hit in combat, the player may roll a die for each enemy in the location. On a 5-6, the enemy unit takes an additional hit.",
+                "es": "Si al menos una unidad bárbara obtiene un impacto en combate, el jugador puede lanzar un dado por cada enemigo en la localización. Con un 5-6, la unidad enemiga sufre un impacto adicional."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "abyssflames",
+            "faction": "daemons",
+            "type": "active",
+            "mana": 3,
+            "name": {
+                "en": "Abyss Flames",
+                "es": "Llamas del Abismo"
+            },
+            "text": {
+                "en": "Deals 1 hit to an enemy unit in an adjacent location. If the unit is destroyed, the demon player gains 1 Mana.",
+                "es": "Inflige 1 impacto a una unidad enemiga en una localización adyacente. Si la unidad es destruida, el jugador demonio gana 1 Maná."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "infernalportal",
+            "faction": "daemons",
+            "type": "active",
+            "mana": 5,
+            "name": {
+                "en": "Infernal Portal",
+                "es": "Portal Infernal"
+            },
+            "text": {
+                "en": "Teleports a demon unit from this location to any other location controlled by the player.",
+                "es": "Tele-transporta una unidad demoníaca de esa localización a cualquier otra localización controlada por su jugador."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "darkpact",
+            "faction": "daemons",
+            "type": "passive",
+            "mana": 2,
+            "name": {
+                "en": "Dark Pact",
+                "es": "Pacto Oscuro"
+            },
+            "text": {
+                "en": "The player may sacrifice 1 HP from a demon unit to generate 1 additional Mana this turn. Cannot be used on units with only 1 HP remaining. Can be cast only once per turn.",
+                "es": "El jugador puede gastar 1 punto de vida de una de sus unidades demoníacas para generar 1 punto de Maná adicional este turno. No puede usarse en unidades con 1 punto de vida restante. Este hechizo solo puede lanzarse una vez por turno."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "bloodcorruption",
+            "faction": "daemons",
+            "type": "passive",
+            "mana": 4,
+            "name": {
+                "en": "Blood Corruption",
+                "es": "Corrupción de Sangre"
+            },
+            "text": {
+                "en": "Demon units in the location gain +1 Attack but suffer -1 Initiative this turn.",
+                "es": "Las unidades demoníacas en la localización tienen +1 Ataque, pero reciben -1 de Iniciativa este turno."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "spectralarrow",
+            "faction": "elves",
+            "type": "active",
+            "mana": 2,
+            "name": {
+                "en": "Spectral Arrow",
+                "es": "Flecha Espectral"
+            },
+            "text": {
+                "en": "An elf unit gains +1 Range.",
+                "es": "Una unidad élfica gana +1 de alcance."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "elvenconvergence",
+            "faction": "elves",
+            "type": "active",
+            "mana": 2,
+            "name": {
+                "en": "Elven Convergence",
+                "es": "Convergencia Élfica"
+            },
+            "text": {
+                "en": "Another allied magic unit in the location may cast a spell without paying its Mana cost this turn. This effect cannot be applied to the same spell two turns in a row.",
+                "es": "Otra unidad mágica aliada en la localización puede lanzar un hechizo sin pagar su coste de Maná este turno. Este efecto no puede aplicarse al mismo hechizo dos turnos seguidos."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "elvenreflexes",
+            "faction": "elves",
+            "type": "passive",
+            "mana": 2,
+            "name": {
+                "en": "Elven Reflexes",
+                "es": "Reflejos Élficos"
+            },
+            "text": {
+                "en": "An allied elf unit may move immediately after being attacked without suffering penalties.",
+                "es": "Una unidad élfica aliada puede moverse inmediatamente después de ser atacada sin sufrir penalizaciones."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "elvengrace",
+            "faction": "elves",
+            "type": "passive",
+            "mana": 5,
+            "name": {
+                "en": "Elven Grace",
+                "es": "Gracia Élfica"
+            },
+            "text": {
+                "en": "Elf units in the location have a 50% chance to ignore the first hit received in each combat. Roll a die: on a result of 4-6, the hit is ignored.",
+                "es": "Las unidades élficas en la localización tienen un 50% de probabilidad de ignorar el primer impacto recibido en cada combate. Lanza un dado: con un resultado de 4-6, el impacto es anulado."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "ironrune",
+            "faction": "dwarves",
+            "type": "active",
+            "mana": 2,
+            "name": {
+                "en": "Iron Rune",
+                "es": "Runa del Hierro"
+            },
+            "text": {
+                "en": "Allied dwarf units in a location cannot be displaced or teleported until the end of the turn.",
+                "es": "Las unidades enanas aliadas en una localización no pueden ser desplazadas ni tele-transportadas hasta el final del turno."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "pillaroffire",
+            "faction": "dwarves",
+            "type": "active",
+            "mana": 5,
+            "name": {
+                "en": "Pillar of Fire",
+                "es": "Pilar de Fuego"
+            },
+            "text": {
+                "en": "Deals 2 hits to all enemy units in an adjacent location. This spell does not affect dwarf units.",
+                "es": "Inflige 2 impactos a todas las unidades enemigas en una localización adyacente. Este hechizo no afecta a unidades enanas."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "mithrilarmor",
+            "faction": "dwarves",
+            "type": "passive",
+            "mana": 2,
+            "name": {
+                "en": "Mithril Armor",
+                "es": "Armadura de Mithril"
+            },
+            "text": {
+                "en": "An allied dwarf unit reduces all hits received to 1 per attack.",
+                "es": "Una unidad enana aliada reduce a 1 todos los impactos que recibe en cada ataque."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "unbreakablewalls",
+            "faction": "dwarves",
+            "type": "passive",
+            "mana": 4,
+            "name": {
+                "en": "Unbreakable Walls",
+                "es": "Murallas Inquebrantables"
+            },
+            "text": {
+                "en": "Allied dwarf units in a location ignore the first hit received this turn.",
+                "es": "Las unidades enanas aliadas en una localización ignoran el primer impacto recibido en este turno."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "raisethefallen",
+            "faction": "undead",
+            "type": "active",
+            "mana": 2,
+            "name": {
+                "en": "Raise the Fallen",
+                "es": "Levantar a los Caídos"
+            },
+            "text": {
+                "en": "The player may revive a non-undead unit with a cost of 2 or less in a location controlled by them.",
+                "es": "El jugador puede revivir una unidad no-muerta de coste 2 o menos en una localización controlada por él."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "mistofthedamned",
+            "faction": "undead",
+            "type": "active",
+            "mana": 4,
+            "name": {
+                "en": "Mist of the Damned",
+                "es": "Niebla de los Condenados"
+            },
+            "text": {
+                "en": "Enemy units in a location must roll a die before moving. On a result of 1-3, they cannot move this turn.",
+                "es": "Las unidades enemigas en una localización deben lanzar un dado antes de moverse. Con un 1-3, no pueden moverse este turno."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "auraofterror",
+            "faction": "undead",
+            "type": "passive",
+            "mana": 4,
+            "name": {
+                "en": "Aura of Terror",
+                "es": "Aura de Terror"
+            },
+            "text": {
+                "en": "All enemy units in a location lose -1 Initiative until the end of the turn.",
+                "es": "Todas las unidades enemigas en una localización pierden -1 Iniciativa hasta el final del turno."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "immortallegion",
+            "faction": "undead",
+            "type": "passive",
+            "mana": 5,
+            "name": {
+                "en": "Immortal Legion",
+                "es": "Legión Inmortal"
+            },
+            "text": {
+                "en": "When an undead unit is destroyed in combat, roll a die. On a result of 5-6, the unit immediately returns to the battlefield in the same location (one single figure).",
+                "es": "Cuando una unidad no-muerta es destruida en combate, lanza un dado. Con un resultado de 5-6, la unidad regresa inmediatamente al campo de batalla en la misma localización (una sola ficha)."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "savageambush",
+            "faction": "orcs",
+            "type": "active",
+            "mana": 3,
+            "name": {
+                "en": "Savage Ambush",
+                "es": "Emboscada Salvaje"
+            },
+            "text": {
+                "en": "An allied orc unit may move to an adjacent location occupied by enemies and attack immediately before the combat phase begins.",
+                "es": "Una unidad orca aliada puede moverse a una localización adyacente ocupada por enemigos y atacar de inmediato, antes de que comience la fase de combate."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "brutalcrush",
+            "faction": "orcs",
+            "type": "active",
+            "mana": 5,
+            "name": {
+                "en": "Brutal Crush",
+                "es": "Aplastamiento Brutal"
+            },
+            "text": {
+                "en": "An allied orc unit in combat may roll an additional die for each hit it has landed. Each result of 5-6 generates an extra hit.",
+                "es": "Una unidad orca aliada en combate puede lanzar un dado adicional por cada impacto que haya conseguido. Cada resultado de 5-6 genera un impacto extra."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "savageblow",
+            "faction": "orcs",
+            "type": "passive",
+            "mana": 2,
+            "name": {
+                "en": "Savage Blow",
+                "es": "Golpe Salvaje"
+            },
+            "text": {
+                "en": "If an orc unit lands at least one hit, it may roll an additional die for each hit landed. On a result of 5-6, an extra hit is dealt.",
+                "es": "Si una unidad orca consigue al menos un impacto, puede lanzar un dado adicional por cada impacto logrado. Con un 5-6, se obtiene un impacto extra."
+            },
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "recklesscharge",
+            "faction": "orcs",
+            "type": "passive",
+            "mana": 4,
+            "name": {
+                "en": "Reckless Charge",
+                "es": "Carga Descontrolada"
+            },
+            "text": {
+                "en": "Allied orc units in a location gain +1 Movement and +1 Attack but lose -1 Initiative until the end of the turn.",
+                "es": "Las unidades orcas aliadas en una localización ganan +1 Movimiento y +1 Ataque, pero pierden -1 Iniciativa hasta el final del turno."
+            },
+            "expansion": "base",
+            "version": 1
+        }
+    ]
+}

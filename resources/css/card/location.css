@@ -36,7 +36,7 @@ div.main-card div.card-location div.name {
 
 div.main-card div.card-location div.type {
     position: absolute;
-    top: 560px;
+    top: 600px;
     width:  756px;
     height: 50px;
     border-top: 4px solid rgb(255,255,255);
@@ -76,9 +76,9 @@ div.main-card div.card-location div.terrain {
 
 div.main-card div.card-location div.text {
     position: absolute;
-    top:    610px;
+    top:    650px;
     width:  756px;
-    height: 300px;
+    height: 260px;
     background-color: rgba(255, 255, 255, 0.8);
     border-bottom: 4px solid rgb(255,255,255);
     z-index: 30;
@@ -99,7 +99,7 @@ div.main-card div.card-location div.text div.lore {
     position: absolute;
     width:  756px;
     height: 224px;
-    padding: 24px;
+    padding: 22px;
     font-size: 34px;
     line-height: 36px;
     font-family: scriptuale-s, serif;
@@ -107,7 +107,7 @@ div.main-card div.card-location div.text div.lore {
 }
 
 div.main-card div.card-location div.text div.lore {
-    top: 230px;
+    top: 194px;
     width: 756px;
     height: 60px;
     padding-top: 0;
@@ -145,6 +145,7 @@ div.main-card div.card-location div.gold {
 }
 
 div.main-card div.card-location div.mana {
+    left: 630px;
     background-color: rgba(156, 203, 255, 1);
     border: 4px solid #046ac4;
     color: #046ac4;

@@ -71,6 +71,11 @@
                             <span class="select-none">Locations</span>
                         </a>
                     </li>
+                    <li>
+                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="{{ url('spells') }}">
+                            <span class="select-none">Spells</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!-- example copies end -->

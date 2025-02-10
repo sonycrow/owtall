@@ -8,14 +8,16 @@ use Livewire\Component;
 class Unit extends Component
 {
     public array $unit;
+    public string $tts;
 
     /**
      * Constructor del componente
      */
-    public function mount(string $id)
+    public function mount(string $id, string $tts)
     {
         // Datos de la unidad
         $this->unit = UnitServiceProvider::getUnit($id);
+        $this->tts  = $tts;
     }
 
     /**

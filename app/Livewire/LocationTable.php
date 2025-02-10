@@ -44,18 +44,18 @@ class LocationTable extends Component
     private function loadHeaders(): void
     {
         $this->headers = array(
-            array("key" => "id",             "value" => "ID"),
-            array("key" => "image",          "value" => "Image"),
-            array("key" => "name",           "value" => "Name"),
-            array("key" => "universe",       "value" => "Universe"),
-            array("key" => "type",           "value" => "Type"),
-            array("key" => "ticon",          "value" => "Icon"),
-            array("key" => "terrain",        "value" => "Terrain"),
-            array("key" => "entrance",       "value" => "Entrance"),
-            array("key" => "gold",           "value" => "Gold"),
-            array("key" => "mana",           "value" => "Mana"),
-            array("key" => "symbol",         "value" => "Symbol"),
-            array("key" => "exp",            "value" => "Expansion"),
+            array("key" => "id",       "value" => "ID"),
+            array("key" => "image",    "value" => "Image"),
+            array("key" => "name",     "value" => "Name"),
+            array("key" => "universe", "value" => "Universe"),
+            array("key" => "type",     "value" => "Type"),
+            array("key" => "ticon",    "value" => "Icon"),
+            array("key" => "terrain",  "value" => "Terrain"),
+            array("key" => "entrance", "value" => "Entrance"),
+            array("key" => "gold",     "value" => "Gold"),
+            array("key" => "mana",     "value" => "Mana"),
+            array("key" => "text",     "value" => "Text"),
+            array("key" => "exp",      "value" => "Expansion"),
         );
     }
 
@@ -78,18 +78,18 @@ class LocationTable extends Component
             // if (App::isLocale('en')) {
 
             $location = array(
-                "id"             => $item['id'],
-                "image"          => "img:" . Vite::asset($item['image']) . ",w:64",
-                "name"           => $item['name'],
-                "universe"       => $item['universe'],
-                "type"           => __("general.{$item['type']}"),
-                "ticon"          => isset($item['terrain']) ? "img:" . Vite::asset("resources/img/icon/terrain_{$item['terrain']}.png") . ",w:24" : null,
-                "terrain"        => isset($item['terrain']) ? ucfirst($item['terrain']) : null,
-                "entrance"       => $item['entrance'] ?? null,
-                "gold"           => $item['gold'] ?? null,
-                "mana"           => $item['mana'] ?? null,
-                "symbol"         => isset($item['symbol']) ? strtoupper($item['symbol']) : null,
-                "exp"            => ucfirst($item['expansion']),
+                "id"        => $item['id'],
+                "image"     => "img:" . Vite::asset($item['image']) . ",w:64",
+                "name"      => $item['name'],
+                "universe"  => $item['universe'],
+                "type"      => __("general.{$item['type']}"),
+                "ticon"     => isset($item['terrain']) ? "img:" . Vite::asset("resources/img/icon/terrain_{$item['terrain']}.png") . ",w:24" : null,
+                "terrain"   => isset($item['terrain']) ? ucfirst($item['terrain']) : null,
+                "entrance"  => $item['entrance'] ?? null,
+                "gold"      => $item['gold'] ?? null,
+                "mana"      => $item['mana'] ?? null,
+                "text"      => $item['text'],
+                "exp"       => ucfirst($item['expansion']),
             );
 
             // Genera el elemento final

@@ -17,18 +17,15 @@
             </label>
         </div>
 
-        <div class="mr-4 border rounded-md px-2"><label><input wire:model="tts" type="checkbox" class="mr-1"/><span>Formato TTS</span></label></div>
         <div class="mr-4 border rounded-md px-2"><label><input x-on:click="download" type="checkbox" class="mr-1"/><span>Descargar imágenes</span></label></div>
 
         <button x-on:click="generate" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 p-1">Generar</button>
     </div>
 
-{{--    {{ $terrain = 'water' }}--}}
-
-    <div class="grid grid-cols-2" style="width: {{ ($tts ? 288*4 : 756*2) }}px;">
+    <div class="grid grid-cols-2" style="width: {{ 756*2 }}px;">
         {{-- Livewire --}}
         @foreach (\App\Providers\LocationServiceProvider::getLocationsByTerrain($terrain) as $item)
-            @livewire('location', ['id' => $item['id'], 'tts' => $tts], key($item['id']))
+            @livewire('location', ['id' => $item['id']], key($item['id']))
         @endforeach
     </div>
 

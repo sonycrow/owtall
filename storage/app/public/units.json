@@ -11,6 +11,7 @@
             "terrain": "plains",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -25,6 +26,7 @@
             "terrain": "plains",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -39,6 +41,7 @@
             "terrain": "plains",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -53,6 +56,7 @@
             "terrain": "magic",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -67,6 +71,7 @@
             "terrain": "fly",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -81,6 +86,7 @@
             "terrain": "forest",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -95,6 +101,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -109,6 +116,7 @@
             "terrain": "mountain",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -123,6 +131,7 @@
             "terrain": "magic",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -137,6 +146,7 @@
             "terrain": "plains",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -151,6 +161,7 @@
             "terrain": "fly",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -165,6 +176,7 @@
             "terrain": "water",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -179,6 +191,7 @@
             "terrain": "forest",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -193,6 +206,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -207,6 +221,7 @@
             "terrain": "magic",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -221,6 +236,7 @@
             "terrain": "desert",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -235,6 +251,7 @@
             "terrain": "magic",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -249,6 +266,7 @@
             "terrain": "forest",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -263,6 +281,7 @@
             "terrain": "fly",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -277,6 +296,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -291,6 +311,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -305,6 +326,7 @@
             "terrain": "magic",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -319,6 +341,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -333,6 +356,7 @@
             "terrain": "mountain",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -347,6 +371,7 @@
             "terrain": "mountain",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -361,6 +386,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -375,6 +401,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -389,6 +416,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -396,13 +424,14 @@
             "universe": "fantasy",
             "faction": "elves",
             "name": "archer",
-            "speed": 3,
-            "move": 2,
-            "atk": 2,
+            "speed": 2,
+            "move": 1,
+            "atk": 1,
             "range": 1,
             "terrain": "plains",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -417,6 +446,7 @@
             "terrain": "fly",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -431,6 +461,7 @@
             "terrain": "magic",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -445,6 +476,7 @@
             "terrain": "forest",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -459,6 +491,7 @@
             "terrain": "forest",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -468,11 +501,12 @@
             "name": "druid",
             "speed": 3,
             "move": 2,
-            "atk": 2,
+            "atk": 1,
             "range": 0,
             "terrain": "magic",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -487,6 +521,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -501,6 +536,7 @@
             "terrain": "forest",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -515,6 +551,7 @@
             "terrain": "forest",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -529,6 +566,7 @@
             "terrain": "magic",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -543,6 +581,7 @@
             "terrain": "mountain",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -557,6 +596,7 @@
             "terrain": "mountain",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -571,6 +611,7 @@
             "terrain": "mountain",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -585,6 +626,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -599,6 +641,7 @@
             "terrain": "plains",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -613,6 +656,7 @@
             "terrain": "desert",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -627,6 +671,7 @@
             "terrain": "desert",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -641,6 +686,7 @@
             "terrain": "magic",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -655,6 +701,7 @@
             "terrain": "desert",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -669,6 +716,7 @@
             "terrain": "plains",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -683,6 +731,7 @@
             "terrain": "city",
             "type": "unit",
             "wounded": false,
+            "unique": false,
             "expansion": "base",
             "version": 1
         },
@@ -698,6 +747,7 @@
             "type": "unit",
             "symbol": "m",
             "wounded": false,
+            "unique": false,
             "expansion": "mercenaries",
             "version": 1
         },
@@ -713,6 +763,7 @@
             "type": "unit",
             "symbol": "m",
             "wounded": false,
+            "unique": false,
             "expansion": "mercenaries",
             "version": 1
         },
@@ -728,6 +779,7 @@
             "type": "unit",
             "symbol": "m",
             "wounded": false,
+            "unique": false,
             "expansion": "mercenaries",
             "version": 1
         },
@@ -743,6 +795,7 @@
             "type": "unit",
             "symbol": "m",
             "wounded": false,
+            "unique": false,
             "expansion": "mercenaries",
             "version": 1
         },
@@ -758,6 +811,7 @@
             "type": "unit",
             "symbol": "m",
             "wounded": false,
+            "unique": false,
             "expansion": "mercenaries",
             "version": 1
         },
@@ -773,6 +827,7 @@
             "type": "unit",
             "symbol": "m",
             "wounded": false,
+            "unique": false,
             "expansion": "mercenaries",
             "version": 1
         },
@@ -788,6 +843,7 @@
             "type": "unit",
             "symbol": "m",
             "wounded": false,
+            "unique": false,
             "expansion": "mercenaries",
             "version": 1
         },
@@ -803,6 +859,7 @@
             "type": "unit",
             "symbol": "m",
             "wounded": false,
+            "unique": false,
             "expansion": "mercenaries",
             "version": 1
         },
@@ -818,6 +875,7 @@
             "type": "unit",
             "symbol": "m",
             "wounded": false,
+            "unique": false,
             "expansion": "mercenaries",
             "version": 1
         },
@@ -834,6 +892,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": false,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -850,6 +909,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": true,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -866,6 +926,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": false,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -882,6 +943,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": true,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -898,6 +960,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": false,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -914,6 +977,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": true,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -930,6 +994,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": false,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -946,6 +1011,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": true,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -962,6 +1028,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": false,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -978,6 +1045,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": true,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -994,6 +1062,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": false,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -1010,6 +1079,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": true,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -1026,6 +1096,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": false,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -1042,6 +1113,7 @@
             "type": "hero",
             "symbol": "h",
             "wounded": true,
+            "unique": true,
             "expansion": "heroes",
             "version": 1
         },
@@ -1058,6 +1130,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": false,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1074,6 +1147,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": true,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1090,6 +1164,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": false,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1106,6 +1181,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": true,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1122,6 +1198,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": false,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1138,6 +1215,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": true,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1154,6 +1232,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": false,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1170,6 +1249,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": true,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1186,6 +1266,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": false,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1202,6 +1283,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": true,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1218,6 +1300,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": false,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1234,6 +1317,41 @@
             "type": "hero",
             "symbol": "t",
             "wounded": true,
+            "unique": true,
+            "expansion": "titans",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "faction": "titans",
+            "name": "tempus",
+            "speed": 4,
+            "move": 3,
+            "atk": 4,
+            "range": 1,
+            "cost": 10,
+            "terrain": "fly",
+            "type": "hero",
+            "symbol": "t",
+            "wounded": false,
+            "unique": true,
+            "expansion": "titans",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "faction": "titans",
+            "name": "tempus",
+            "speed": 4,
+            "move": 2,
+            "atk": 2,
+            "range": 0,
+            "cost": 10,
+            "terrain": "fly",
+            "type": "hero",
+            "symbol": "t",
+            "wounded": true,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1250,6 +1368,7 @@
             "type": "hero",
             "symbol": "t",
             "wounded": false,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1258,14 +1377,15 @@
             "faction": "titans",
             "name": "dracoon",
             "speed": 4,
-            "move": 1,
-            "atk": 2,
+            "move": 2,
+            "atk": 3,
             "range": 1,
             "cost": 12,
             "terrain": "fly",
             "type": "hero",
             "symbol": "t",
             "wounded": true,
+            "unique": true,
             "expansion": "titans",
             "version": 1
         },
@@ -1282,6 +1402,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": false,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1298,6 +1419,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": true,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1314,6 +1436,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": false,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1330,6 +1453,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": true,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1346,6 +1470,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": false,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1362,6 +1487,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": true,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1378,6 +1504,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": false,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1394,6 +1521,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": true,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1410,6 +1538,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": false,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1426,6 +1555,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": true,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1442,6 +1572,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": false,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1458,6 +1589,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": true,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1474,6 +1606,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": false,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1490,6 +1623,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": true,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1506,6 +1640,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": false,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         },
@@ -1522,6 +1657,7 @@
             "type": "hero",
             "symbol": "i",
             "wounded": true,
+            "unique": true,
             "expansion": "inferno",
             "version": 1
         }
