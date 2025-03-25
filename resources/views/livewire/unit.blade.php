@@ -16,8 +16,8 @@
 
         <div class="line-left"></div>
         <div @class(['cost', 'cost-one' => $unit['cost'] == 1])>{{ $unit['cost'] }}</div>
-        <div class="speed">
-            @for($i = 1; $i <= $unit['speed']; $i++)
+        <div class="initiative">
+            @for($i = 1; $i <= $unit['initiative']; $i++)
                 <div></div>
             @endfor
         </div>

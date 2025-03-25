@@ -142,14 +142,14 @@ div.main-counter div.symbol {
     color: #ffffff;
 }
 
-div.main-counter div.speed {
+div.main-counter div.initiative {
     position: absolute;
     z-index: 14;
     top: 150px;
     left: 30px;
 }
 
-div.main-counter div.speed div {
+div.main-counter div.initiative div {
     position: relative;
     width:  100px;
     height: 28px;

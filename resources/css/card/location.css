@@ -18,7 +18,7 @@ div.main-card div.card-location div.art {
 
 div.main-card div.card-location div.name {
     position: absolute;
-    top: 58px;
+    top: 50px;
     left: 58px;
     border: 4px solid rgb(255,255,255);
     width: 640px;
@@ -78,7 +78,7 @@ div.main-card div.card-location div.text {
     position: absolute;
     top:    650px;
     width:  756px;
-    height: 260px;
+    height: 250px;
     background-color: rgba(255, 255, 255, 0.8);
     border-bottom: 4px solid rgb(255,255,255);
     z-index: 30;
@@ -107,7 +107,7 @@ div.main-card div.card-location div.text div.lore {
 }
 
 div.main-card div.card-location div.text div.lore {
-    top: 194px;
+    top: 184px;
     width: 756px;
     height: 60px;
     padding-top: 0;
@@ -128,12 +128,12 @@ div.main-card div.card-location div.text div.lore div {
 
 div.main-card div.card-location div.gold,
 div.main-card div.card-location div.mana {
-    top: 494px;
-    width: 94px;
-    height: 94px;
+    top: 464px;
+    width: 114px;
+    height: 114px;
     text-shadow: none;
-    font-size: 84px;
-    line-height: 82px;
+    font-size: 112px;
+    line-height: 102px;
     z-index: 20;
 }
 
@@ -145,7 +145,7 @@ div.main-card div.card-location div.gold {
 }
 
 div.main-card div.card-location div.mana {
-    left: 630px;
+    left: 610px;
     background-color: rgba(156, 203, 255, 1);
     border: 4px solid #046ac4;
     color: #046ac4;
@@ -157,13 +157,13 @@ div.main-card div.card-location div.one {
 }
 
 div.main-card div.card-location div.terrain {
-    top: 934px;
+    top: 928px;
     left: 32px;
     border-radius: 18px;
 }
 
 div.main-card div.card-location div.entrance {
-    top: 934px;
+    top: 928px;
     border-radius: 18px;
     font-size: 72px;
     line-height: 70px;

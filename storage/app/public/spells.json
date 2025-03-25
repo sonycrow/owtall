@@ -3,7 +3,7 @@
         {
             "universe": "fantasy",
             "code": "dispel",
-            "type": "active",
+            "type": "instant",
             "mana": 2,
             "name": {
                 "en": "Dispel",
@@ -19,31 +19,31 @@
         {
             "universe": "fantasy",
             "code": "arcanewind",
-            "type": "active",
-            "mana": 3,
+            "type": "instant",
+            "mana": 2,
             "name": {
                 "en": "Arcane Wind",
                 "es": "Viento Arcano"
             },
             "text": {
-                "en": "Grants +1 {mov} to a friendly unit until the end of the turn. Cannot be used on [magic] or [fly] units.",
-                "es": "Otorga +1 de {mov} a una unidad aliada hasta el final del turno. No puede usarse en unidades [magic] o [fly]."
+                "en": "Grants +1 {mov} to a friendly unit until the end of the turn.",
+                "es": "Otorga +1 de {mov} a una unidad aliada hasta el final del turno."
             },
             "expansion": "base",
             "version": 1
         },
         {
             "universe": "fantasy",
-            "code": "arcaneresonance",
-            "type": "passive",
-            "mana": 1,
+            "code": "purifyingflame",
+            "type": "combat",
+            "mana": 2,
             "name": {
-                "en": "Arcane Resonance",
-                "es": "Resonancia Arcana"
+                "en": "Purifying Flame",
+                "es": "Llama Purificadora"
             },
             "text": {
-                "en": "If the player casts a spell during their turn, they gain 2 {mana} at the beginning of their next collection phase.",
-                "es": "Si el jugador lanza un hechizo en su turno, obtiene 2 {mana} al comienzo de su siguiente fase de recaudación."
+                "en": "Deals 1 hit to an enemy unit in the same location and removes any passive effect or bonus it has on its next attack.",
+                "es": "Llama Purificadora (Combate, 2 Maná): Inflige 1 impacto a una unidad enemiga en la misma localización y elimina cualquier efecto pasivo o de bonificación que tenga en su próximo ataque."
             },
             "expansion": "base",
             "version": 1
@@ -51,8 +51,8 @@
         {
             "universe": "fantasy",
             "code": "mysticshield",
-            "type": "passive",
-            "mana": 3,
+            "type": "combat",
+            "mana": 2,
             "name": {
                 "en": "Mystic Shield",
                 "es": "Escudo Místico"
@@ -68,7 +68,7 @@
             "universe": "fantasy",
             "code": "jaguarscall",
             "faction": "amazons",
-            "type": "active",
+            "type": "instant",
             "mana": 3,
             "name": {
                 "en": "Jaguar's Call",
@@ -85,7 +85,7 @@
             "universe": "fantasy",
             "code": "pumasleap",
             "faction": "amazons",
-            "type": "active",
+            "type": "instant",
             "mana": 4,
             "name": {
                 "en": "Puma's Leap",
@@ -102,7 +102,7 @@
             "universe": "fantasy",
             "code": "wildfury",
             "faction": "amazons",
-            "type": "passive",
+            "type": "combat",
             "mana": 2,
             "name": {
                 "en": "Wild Fury",
@@ -119,7 +119,7 @@
             "universe": "fantasy",
             "code": "jungleroar",
             "faction": "amazons",
-            "type": "passive",
+            "type": "combat",
             "mana": 4,
             "name": {
                 "en": "Jungle Roar",
@@ -136,7 +136,7 @@
             "universe": "fantasy",
             "code": "bloodthirst",
             "faction": "barbarians",
-            "type": "active",
+            "type": "instant",
             "mana": 3,
             "name": {
                 "en": "Bloodthirst",
@@ -153,7 +153,7 @@
             "universe": "fantasy",
             "code": "warquake",
             "faction": "barbarians",
-            "type": "active",
+            "type": "instant",
             "mana": 4,
             "name": {
                 "en": "Warquake",
@@ -170,7 +170,7 @@
             "universe": "fantasy",
             "code": "unrestrainedrage",
             "faction": "barbarians",
-            "type": "passive",
+            "type": "combat",
             "mana": 2,
             "name": {
                 "en": "Unrestrained Rage",
@@ -187,7 +187,7 @@
             "universe": "fantasy",
             "code": "warcry",
             "faction": "barbarians",
-            "type": "passive",
+            "type": "combat",
             "mana": 3,
             "name": {
                 "en": "War Cry",
@@ -204,7 +204,7 @@
             "universe": "fantasy",
             "code": "abyssflames",
             "faction": "daemons",
-            "type": "active",
+            "type": "instant",
             "mana": 3,
             "name": {
                 "en": "Abyss Flames",
@@ -221,7 +221,7 @@
             "universe": "fantasy",
             "code": "infernalportal",
             "faction": "daemons",
-            "type": "active",
+            "type": "instant",
             "mana": 5,
             "name": {
                 "en": "Infernal Portal",
@@ -238,15 +238,15 @@
             "universe": "fantasy",
             "code": "darkpact",
             "faction": "daemons",
-            "type": "passive",
+            "type": "combat",
             "mana": 2,
             "name": {
                 "en": "Dark Pact",
                 "es": "Pacto Oscuro"
             },
             "text": {
-                "en": "The player may sacrifice 1 HP from a demon unit to generate 1 additional Mana this turn. Cannot be used on units with only 1 HP remaining. Can be cast only once per turn.",
-                "es": "El jugador puede gastar 1 punto de vida de una de sus unidades demoníacas para generar 1 punto de Maná adicional este turno. No puede usarse en unidades con 1 punto de vida restante. Este hechizo solo puede lanzarse una vez por turno."
+                "en": "The player may spend 1 health point from one of their demon units to cast a spell without paying its cost. It cannot be used on units with only 1 health point remaining. This spell can only be cast once per turn.",
+                "es": "El jugador puede gastar 1 punto de vida de una de sus unidades demoníacas para lanzar un hechizo sin pagar su coste. No puede usarse en unidades con 1 punto de vida restante. Este hechizo solo puede lanzarse una vez por turno."
             },
             "expansion": "base",
             "version": 1
@@ -255,7 +255,7 @@
             "universe": "fantasy",
             "code": "bloodcorruption",
             "faction": "daemons",
-            "type": "passive",
+            "type": "combat",
             "mana": 4,
             "name": {
                 "en": "Blood Corruption",
@@ -272,7 +272,7 @@
             "universe": "fantasy",
             "code": "spectralarrow",
             "faction": "elves",
-            "type": "active",
+            "type": "instant",
             "mana": 2,
             "name": {
                 "en": "Spectral Arrow",
@@ -289,7 +289,7 @@
             "universe": "fantasy",
             "code": "elvenconvergence",
             "faction": "elves",
-            "type": "active",
+            "type": "instant",
             "mana": 2,
             "name": {
                 "en": "Elven Convergence",
@@ -306,7 +306,7 @@
             "universe": "fantasy",
             "code": "elvenreflexes",
             "faction": "elves",
-            "type": "passive",
+            "type": "combat",
             "mana": 2,
             "name": {
                 "en": "Elven Reflexes",
@@ -323,7 +323,7 @@
             "universe": "fantasy",
             "code": "elvengrace",
             "faction": "elves",
-            "type": "passive",
+            "type": "combat",
             "mana": 5,
             "name": {
                 "en": "Elven Grace",
@@ -340,7 +340,7 @@
             "universe": "fantasy",
             "code": "ironrune",
             "faction": "dwarves",
-            "type": "active",
+            "type": "instant",
             "mana": 2,
             "name": {
                 "en": "Iron Rune",
@@ -357,7 +357,7 @@
             "universe": "fantasy",
             "code": "pillaroffire",
             "faction": "dwarves",
-            "type": "active",
+            "type": "instant",
             "mana": 5,
             "name": {
                 "en": "Pillar of Fire",
@@ -374,7 +374,7 @@
             "universe": "fantasy",
             "code": "mithrilarmor",
             "faction": "dwarves",
-            "type": "passive",
+            "type": "combat",
             "mana": 2,
             "name": {
                 "en": "Mithril Armor",
@@ -391,7 +391,7 @@
             "universe": "fantasy",
             "code": "unbreakablewalls",
             "faction": "dwarves",
-            "type": "passive",
+            "type": "combat",
             "mana": 4,
             "name": {
                 "en": "Unbreakable Walls",
@@ -408,7 +408,7 @@
             "universe": "fantasy",
             "code": "raisethefallen",
             "faction": "undead",
-            "type": "active",
+            "type": "instant",
             "mana": 2,
             "name": {
                 "en": "Raise the Fallen",
@@ -425,7 +425,7 @@
             "universe": "fantasy",
             "code": "mistofthedamned",
             "faction": "undead",
-            "type": "active",
+            "type": "instant",
             "mana": 4,
             "name": {
                 "en": "Mist of the Damned",
@@ -442,7 +442,7 @@
             "universe": "fantasy",
             "code": "auraofterror",
             "faction": "undead",
-            "type": "passive",
+            "type": "combat",
             "mana": 4,
             "name": {
                 "en": "Aura of Terror",
@@ -459,7 +459,7 @@
             "universe": "fantasy",
             "code": "immortallegion",
             "faction": "undead",
-            "type": "passive",
+            "type": "combat",
             "mana": 5,
             "name": {
                 "en": "Immortal Legion",
@@ -476,7 +476,7 @@
             "universe": "fantasy",
             "code": "savageambush",
             "faction": "orcs",
-            "type": "active",
+            "type": "instant",
             "mana": 3,
             "name": {
                 "en": "Savage Ambush",
@@ -493,7 +493,7 @@
             "universe": "fantasy",
             "code": "brutalcrush",
             "faction": "orcs",
-            "type": "active",
+            "type": "instant",
             "mana": 5,
             "name": {
                 "en": "Brutal Crush",
@@ -510,7 +510,7 @@
             "universe": "fantasy",
             "code": "savageblow",
             "faction": "orcs",
-            "type": "passive",
+            "type": "combat",
             "mana": 2,
             "name": {
                 "en": "Savage Blow",
@@ -527,7 +527,7 @@
             "universe": "fantasy",
             "code": "recklesscharge",
             "faction": "orcs",
-            "type": "passive",
+            "type": "combat",
             "mana": 4,
             "name": {
                 "en": "Reckless Charge",

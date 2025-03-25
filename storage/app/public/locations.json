@@ -527,7 +527,7 @@
                 "es": "Una ciudad fortificada con altas murallas y torres de vigilancia."
             },
             "entrance": 1,
-            "gold": 3,
+            "gold": 2,
             "mana": 1,
             "expansion": "base",
             "version": 1
